@@ -29,8 +29,8 @@ public class Main {
         int sum1 = 0;
         for (int element : arr) {
             sum1 += element;
-            avgPerWeek = sum1 / 5;
         }
+        avgPerWeek = sum1 / arr.length;
         System.out.println("Средняя сумма трат за месяц составила " + avgPerWeek + " рублей");
 
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
